@@ -1,0 +1,1000 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400);
+
+
+html,body {
+    background-color: #2b2c2e;
+    height: 100%;
+}
+
+.buyu{
+    margin-top: 343px !important;
+}
+
+
+.cevre {
+    color: white;
+    font-size: 21px;
+    margin-top: 24px;
+    di: ;
+    display: block;
+    margin-left: -19px;
+    font-weight: 200;
+    splay: block;
+}
+
+
+
+.sehir {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5px;
+    font-weight: 1*;
+}
+
+
+
+.glob {
+    background-color: white;
+}
+
+
+
+.hamburger-menu {
+    margin-top: 34px !important;
+}
+
+
+
+.header {
+    height: 476px;
+    background-image: url(../img/head_1920.png);
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+.banner {
+    position: relative;
+    z-index: 1;
+    margin: 80px auto;
+    width: 330px;
+}
+
+
+
+.banner .line {
+    margin: 0 0 10px;
+    width: 100%;
+    height: 78px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.05);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    line-height: 78px;
+    transform: skew(0, -15deg);
+}
+
+
+
+.banner .line:after,
+.banner .line:first-child:before {
+    position: absolute;
+    top: 44px;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 330px;
+    height: 78px;
+    border-radius: 4px;
+    background: #626262;
+    content: '';
+    transform: skew(0, 15deg);
+}
+
+
+
+.banner .line:first-child:before {
+    top: -10px;
+    right: 0;
+    left: auto;
+}
+
+
+
+.banner .line:first-child:before,
+.banner .line:last-child:after {
+    width: 0;
+    height: 0;
+    border-width: 38px;
+    bord: ;
+    border-style: solid;
+    border-color: #626262 transparent transparent;
+    background: transparent;
+    er-style: solid;
+}
+
+
+
+.banner .line:last-child:after {
+    top: 12px;
+    border-color: transparent transparent #626262;
+}
+
+
+
+.banner span {
+    display: block;
+    font-family: 'Oswald','Helvetica Neue', Helvetica;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: rgba(255,255,255,10.9);
+    color: #666;
+    text-shadow: 1px 1px 0 #444;
+}
+
+
+
+.twit {
+    background-color: #55acef;
+}
+
+
+
+.neler {
+    margin-left: -15px;
+    border-left: 2px solid #5ac6ea;
+    height: 35px;;
+}
+
+
+
+.neler_t {
+    font-size: 27px;
+    margin-left: -11px;
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+
+
+.yapiyoz {
+    height: 35px;
+    margin-left: -15px;
+    border-left: 2px solid #5ac6ea;
+    x solid #5ac6ea: ;
+}
+
+
+
+.yapiyoz_t {
+    font-size: 38px;
+    margin-left: -11px;
+    margin-top: 0px;
+}
+
+
+
+.icons {
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+
+.n_y {
+    height: 137px;
+}
+
+
+
+.n_y_i {
+    height: 137px;
+    text-align: ce;
+    nter: ;
+}
+
+
+
+.n {
+    height: 332px;
+    text-align: center;
+    border: 2px solid #cceef7;
+    margin-left: 5%;
+    width: 221px;
+}
+
+
+
+.n_g {
+    height: 332px;
+    background: white;
+}
+
+
+.glip{
+    font-size: 51px;
+    float: left;
+    margin-top: 25px;
+    color: #4dc7ec;
+
+}
+
+.gli_t{
+    float: left;
+    font-size: 12px;
+    margin-top: 29px;
+    margin-left: 23px;
+    color: #73a955;;;
+
+}
+
+@media (min-width: 1200px) {
+}l(http://fonts.googleapis.com/css?family=Oswald:400);
+
+
+html,body{
+    background-color: #2b2c2e;
+    height: 100%;
+}
+
+.cevre{
+    color: white;font-size: 21px;
+    margin-top: 24px;
+    di
+    color: white;
+    font-size: 21px;
+    margin-top: 24px;
+    display: block;
+    margin-left: -19px;
+    font-weight: 200;splay: block;
+    margin-left: -19px;
+    font-weight: 200;
+}
+
+.sehir{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5px;
+    font-weight: 1*;
+}
+
+
+
+
+
+.glob{
+    background-color: white;
+}
+
+
+.hamburger-menu{
+    margin-top: 32px !important;
+}
+
+.header{
+    height: 476px;
+    display: inline-block;
+    width: 100%;
+    background-image: url(../img/head_1920.png);
+}
+
+.banner {
+    position: relative;
+    z-index: 1;
+    margin: 80px auto;
+    width: 330px;
+}
+
+.banner .line {
+    margin: 0 0 10px;
+    width: 100%;
+    height: 78px;
+    
+    margin: 0 0 10px;
+    width: 100%;
+    height: 78px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.05);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    line-height: 78px;
+    transform: skew(0, -15deg);box-shadow: 10px 10px 10px rgba(0,0,0,0.05);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    line-height: 78px;
+    transform: skew(0, -15deg);
+}
+
+.banner .line:after,
+.banner .line:first-child:before {
+    position: absolute;
+    top: 44px;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 330px;
+    height: 78px;
+    border-radius: 4px;
+    background: #626262;
+    content: '';
+    transform: skew(0, 15deg);
+}
+
+.banner .line:first-child:before {
+    top: -10px;
+    right: 0;
+    left: auto;
+}
+
+.banner .line:first-child:before,
+.banner .line:last-child:after {
+    width: 0;
+    height: 0;
+    border-width: 38px;
+    bord
+    width: 0;
+    height: 0;
+    border-width: 38px;
+    border-style: solid;
+    border-color: #626262 transparent transparent;
+    background: transparent;er-style: solid;
+    border-color: #626262 transparent transparent;
+    background: transparent;
+}
+
+.banner .line:last-child:after {
+    top: 12px;
+    border-color: transparent transparent #626262;
+}
+
+.banner span {
+    display: block;
+    font-family: 'Oswald','Helvetica Neue', Helvetica;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: rgba(255,255,255,10.9);
+    color: #666;
+    text-shadow: 1px 1px 0 #444;
+}
+
+.twit{
+    background-color: #55acef;
+}
+
+.neler{
+    margin-left: -15px;
+    border-left: 2px solid #5ac6ea;
+    height: 35px;;
+}
+
+.neler_t{
+    font-size: 27px;
+    margin-left: -11px;
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+.yapiyoz{
+    height: 35px;;
+    margin-left: -15px;
+    border-left: 2p
+    height: 35px;
+    margin-left: -15px;
+    border-left: 2px solid #5ac6ea;x solid #5ac6ea;
+}
+
+.yapiyoz_t{
+font-size: 38px;
+margin-left: -11px;
+margin-top: 0px;
+}
+
+.icons{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.n_y{
+height: 137px;
+}
+
+.n_y_i{
+    height: 191px;
+    text-align:ce
+    height: 137px;nter;
+}
+
+.n{
+    height: 332px;
+    text-align:center;
+    border: 2px solid #cceef7;
+    margin-left: 5%;
+    width: 221px;
+}
+
+.n_g{
+   height: 332px;
+   background: white;
+}
+
+
+@media (max-width:
+    height: 332px;
+    background: white; 480px){
+    .header{
+    background-image: url(../img/head_480.png) !important;
+    background-repeat: no-repeat;
+}
+.haber{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    margin-top: -9px;
+    display: block;
+    margin-left: 89px;
+
+}
+.s_haber{
+    height: 370px;background: crimson;
+}
+.post_1,.post_2,.post_3{
+    height: 370px;background: brown;
+}
+.gun_tarih{
+   height: 78px;background:black;
+}
+.gun_1,.gun_2,.gun_3{
+    height: 58px;background:gray;
+}
+.tarih_1,.tarih_2,.tarih_3{
+height: 20px;background:green;
+}
+.bosluk,.bosluk_2,.bosluk_3{
+    height: 78px;background:blue
+}
+.haber_sektor,.haber_sektor_2,.haber_sektor_3{
+    height: 78px;background:yellow;
+}
+.haber_resim_1,.haber_resim_2,.haber_resim_3{
+    height: 201px;background:aqua;
+}
+.haber_yazı{
+    height: 66px;background:gray;
+}
+.gunler{
+    
+}
+.tarihler{
+    
+}
+.haber_sektorel{
+    
+}
+.yazi_haber{
+    
+}
+.cont_us{
+    font-size: 39px;
+    color: #569b2a;border: 2px solid #a2c492;
+    text-align: center;
+    margin-top: 129px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 28px;
+
+}
+
+}
+
+
+@media (max-width: 767px) {
+    .header{
+    background-image: url(../img/head_768.png) !important;
+    background-repeat: no-repeat;
+    margin-top: -15px;
+    display: block;
+}
+.n_y{height: 100px;
+margin-top: 19px;
+}
+
+.cevre{;
+    text-align: center;;
+    margin-left: 3%;;
+    margin-top: 32px;;
+    display: block;
+
+}
+
+.sehir{
+    margin-left: 41%;
+
+}
+
+.twit{
+    background-color: #6b5f9b;
+}
+
+
+.n{
+    height: 130px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 16px;
+    border: 2px solid black;
+}
+
+.n_y_i{;
+    height: 100px;
+    text-align:center;
+    margin-top: 16px;
+}
+
+.n_g{
+   height: 604px; 
+}
+
+.icons{
+    margin-top: -2px;
+    height: 100px;
+    margin-left: -11px;
+    
+}
+.neler_t{
+    font-size: 30px;
+}
+.haber{
+    font-weight: 700;
+    color: black;
+    margin-top: -16px;
+    display: block;
+    text-align: center;
+    font-size: 37px;
+    margin-left: -10px;;;
+}
+.sektorel{
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 9px;
+    color: black;
+    margin-top: 1px;
+    display: block;;
+
+}
+.s_haber{
+    height: 864px;
+}
+.post_1,.post_2,.post_3{
+    height: 288px;background: brown;
+    margin-top: 12px;
+}
+.gun_tarih{
+   height: 124px;
+   margin-top: 149px;
+   float: right;
+   width: 233px;
+   color: white;
+}
+.gun_1,.gun_2,.gun_3{
+    height: 125px;
+}
+.tarih_1,.tarih_2,.tarih_3{
+height: 20px;
+}
+.bosluk,.bosluk_2,.bosluk_3{
+    height: 78px;background:blue
+}
+.haber_sektor,.haber_sektor_2,.haber_sektor_3{
+    height: 38px;
+}
+.haber_resim_1,.haber_resim_2,.haber_resim_3{
+    height: 201px;background:aqua;
+}
+.haber_yazı{
+    height: 66px;
+    position: absolute;
+}
+.gunler{
+    font-size: 73px;;
+    display: block;
+    letter-spacing: -5px;
+    float: right;;
+    
+}
+.tarihler{
+    font-size: 13px;
+    margin-top: 25px;
+    display: block;
+    
+}
+.haber_sektorel{
+    margin-top: 21px;
+    display: block;
+    color: white;
+    
+}
+.yazi_haber{
+    margin-top: 10px;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    margin-left: 2px;
+    
+}
+.haber_re_full,.haber_re_full_2,.haber_re_full_3{
+    background-image: url(../img/head_768.png);
+    background-repeat: no-repeat;
+}
+.cont_us{
+    font-size: 39px;
+    color: #569b2a;border: 2px solid #a2c492;
+    text-align: center;
+    margin-top: 129px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 28px;
+
+}
+}
+
+/* Small Devices, .visible-sm-* */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header{
+    background-image: url(../img/head_992.png) !important;
+    background-repeat: no-repeat;
+    margin-top: -13px !important;
+}
+
+.cevre{;
+    text-align: center;;
+    margin-left: 3%;;
+    margin-top: 32px;;
+    display: block;
+
+}
+
+
+.sehir{
+    margin-left: 40%;
+
+}
+
+.n_y{
+height: 100px;
+margin-top: 23px;
+}
+
+.neler_t{
+    font-size: 30px;
+}
+
+.n{
+    height: 130px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 16px;
+    border: 2px solid black;
+}
+
+.n_y_i{
+    height: 100px;
+    text-align:center;
+    margin-top: 13px;
+}
+
+.n_g{
+   height: 612px; 
+}
+
+.icons{
+    margin-top: -2px;
+    height: 100%;
+
+}
+.haber{
+    font-weight: 700;
+    color: black;
+    margin-top: -16px;
+    display: block;
+    text-align: center;
+    font-size: 37px;
+    margin-left: -10px;;;
+}
+.sektorel{
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 9px;
+    color: black;
+    margin-top: 1px;
+    display: block;;
+
+}
+.s_haber{
+    height: 909px;
+}
+.post_1,.post_2,.post_3{
+    height: 288px;background: brown;
+    margin-top: 10px;
+}
+.gun_tarih{
+   height: 124px;
+   margin-top: 149px;
+   float: right;
+}
+.gun_1,.gun_2,.gun_3{
+    height: 125px;
+}
+.tarih_1,.tarih_2,.tarih_3{
+height: 22px;
+}
+.bosluk,.bosluk_2,.bosluk_3{
+    height: 78px;background:blue
+}
+.haber_sektor,.haber_sektor_2,.haber_sektor_3{
+    height: 38px;
+}
+.haber_resim_1,.haber_resim_2,.haber_resim_3{
+    height: 201px;background:aqua;
+}
+.haber_yazı{
+    height: 66px;
+    position: absolute;
+}
+.gunler{
+    font-size: 102px;;
+    display: block;
+    letter-spacing: -5px;
+    float: right;
+    color: white;;;
+    
+}
+.tarihler{
+    margin-top: 30px;
+    display: block;
+    font-size: 25px;
+    color: white;
+    
+}
+.haber_sektorel{
+    margin-top: 39px;
+    display: block;
+    font-size: 19px;
+    color: white;
+    
+}
+.yazi_haber{
+    margin-top: 3px;
+    font-size: 24px;
+    width: 100%;
+    display: block;
+    margin-left: 24px;
+    color: white;
+    
+}
+.haber_re_full,.haber_re_full_2,.haber_re_full_3{
+    background-image: url(../img/head_992.png);
+    background-repeat: no-repeat;
+}
+
+.cont_us{
+    font-size: 20px;
+    color: #569b2a;border: 2px solid #a2c492;
+    text-align: center;
+    margin-top: 129px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 28px;
+
+}
+}
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+.header{
+    background-image: url(../img/head_1200.png) !important;
+    background-repeat: no-repeat;
+        margin-top: 0px !important;
+
+}
+
+.n{
+    width: 211px;
+    margin-left: 2%;
+
+}
+.haber{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    margin-top: -9px;
+    display: block;
+    margin-left: 55px;
+    border-bottom: 2px solid #5ac6ea;
+    width: 138px;;;;
+
+}
+.sektorel{
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: black;
+    margin-top: 7px;
+    display: block;;
+
+}
+.s_haber{
+    height: 370px;
+}
+.post_1,.post_2,.post_3{
+    height: 370px;
+}
+.gun_tarih{
+   height: 78px;
+}
+.gun_1,.gun_2,.gun_3{
+    height: 34px;
+}
+.tarih_1,.tarih_2,.tarih_3{
+height: 54px;
+}
+.bosluk,.bosluk_2,.bosluk_3{
+    height: 78px;
+}
+.haber_sektor,.haber_sektor_2,.haber_sektor_3{
+    height: 78px;
+}
+.haber_resim_1,.haber_resim_2,.haber_resim_3{
+    height: 201px;
+}
+.haber_yazı{
+    height: 66px;
+}
+.gunler{
+    font-size: 29px;
+    margin-left: -2px;
+    display: block;
+    margin-top: 0px;
+    color: #4cc8ee;
+
+}
+.tarihler{
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: -2px;
+    display: block;
+    margin-top: 0px;;
+
+}
+.haber_sektorel{
+    font-size: 12px;
+    margin-left: -22px;
+    display: block;
+    margin-top: 59px;
+    
+}
+.yazi_haber{
+    margin-top: 15px;
+    font-size: 13px;
+    display: block;;;
+    
+}
+.cont_us{
+    font-size: 34px;
+    color: #569b2a;border: 2px solid #a2c492;
+    text-align: center;
+    margin-top: 129px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 28px;
+
+}
+}
+
+
+@media (min-width: 1200px) {
+    .header{
+        margin-top: 0px !important;
+    }
+.haber{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    margin-top: -9px;
+    display: block;
+    margin-left: 89px;
+    border-bottom: 2px solid #5ac6ea;
+    width: 138px;;;;
+
+}
+.sektorel{
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: black;
+    margin-top: 7px;
+    display: block;;
+
+}
+.s_haber{
+    height: 370px;
+}
+.post_1,.post_2,.post_3{
+    height: 370px;
+}
+.gun_tarih{
+   height: 78px;
+}
+.gun_1,.gun_2,.gun_3{
+    height: 31px;
+}
+.tarih_1,.tarih_2,.tarih_3{
+height: 47px;
+}
+.bosluk,.bosluk_2,.bosluk_3{
+    height: 78px;
+}
+.haber_sektor,.haber_sektor_2,.haber_sektor_3{
+    height: 78px;
+}
+.haber_resim_1,.haber_resim_2,.haber_resim_3{
+    height: 201px;
+}
+.haber_yazı{
+    height: 66px;
+}
+.gunler{
+    font-size: 27px;
+    margin-left: 0px;
+    display: block;
+    margin-top: 0px;
+
+}
+.tarihler{
+    font-size: 15px;
+    font-weight: 100;
+}
+.haber_sektorel{
+    font-size: 16px;
+    margin-left: -24px;
+    margin-top: 47px;
+    display: block;
+
+}
+.yazi_haber{
+    font-size: 15px;
+    margin-top: 12px;
+    display: block;
+
+}
+.cont_us{
+    font-size: 39px;
+    color: #569b2a;border: 2px solid #a2c492;
+    text-align: center;
+    margin-top: 129px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 28px;
+
+}
+}
+
+
+
+
+
+
+
+

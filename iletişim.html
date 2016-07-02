@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/iletisim.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/pace.css">
+       <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbOCKb_wWFuC5wls3RrgmTXjNUMLGl_WU&callback=initialize">
+</script>
+    <script src="js/pace.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>$(window).load(function(){
+   // PAGE IS FULLY LOADED  
+   // FADE OUT YOUR OVERLAYING DIV
+      $('#overlay').fadeOut();
+});</script>
+
+</head>
+<body onload="initialize();">
+<div id="overlay"></div>
+    <div class="row iletisim hidden-xs hidden-sm">
+        <div class="container ">
+          <div class="col-md-6 col-lg-6" style="height: 40px;">
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4" style="height: 40px;">
+              <span class="glyphicon glyphicon-map-marker Addr"></span>
+              <span class="bilgiler" style="
+    margin-top: 9px;
+    margin-left: 5px;
+">Kadıköy / İstanbul</span>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4" style="height: 40px;">
+              <span class="glyphicon glyphicon-phone Addr"></span>
+              <span class="bilgiler" style="
+    margin-top: 9px;
+    margin-left: 5px;
+">+90 (216) 338 67 71</span>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4" style="height: 40px;">
+              <span class="glyphicon glyphicon-print Addr"></span>
+              <span class="bilgiler" style="
+    margin-top: 9px;
+    margin-left: 5px;
+">+90 (216) 338 67 71</span>
+            </div>
+          </div>
+        </div>
+    </div>
+<!-- Navbar -->
+    <div class="row ust">
+        <div class="container drop">
+          <div class="col-md-2 col-xs-7 col-sm-7 right">
+            <img class="logo" src="img/logo.png" alt="">
+          </div>
+            
+          
+          <div class="col-md-10 col-sm-5 col-xs-5 left">
+          <nav>
+          <div class="hamburger-menu"><span></span><span></span><span></span></div>
+            <div class="navs col-xs-12 col-sm-12">
+                <ul class="snip1135 col-xs-12 col-sm-12">
+                  <li ><a href="index.html" data-hover="ANA SAYFA">ANA SAYFA</a></li>
+                  <li><a href="#" data-hover="ÇEVRE DANİSMANLİK">ÇEVRE DANİSMANLİK</a></li>
+                  <li><a href="hakkinda.html" data-hover="HAKKINDA">HAKKINDA</a></li>
+                  <li><a href="#" data-hover="REFERANSLAR">REFERANSLAR</a></li>
+                  <li><a href="#" data-hover="İNSAN KAYNAKLARI">İNSAN KAYNAKLARI</a></li>
+                  <li class="current"><a href="#" data-hover="İLETİŞİM">İLETİŞİM</a></li>
+                </ul>
+            </div>
+          </nav>
+        </div>
+    </div>
+    </div>
+<!-- Nav end -->
+<!-- Content -->
+<div class="row main">
+    <div class="container" style="height: 1270px;">
+        <div class="row yon_row" style="margin-top: 32px;">
+            <div class="col-lg-2 col-md-3 col-xs-8 col-sm-3 yon">
+                <h5><a href="#" class="Ana">Ana Sayfa</a>   &#62; iletişim</h5>
+            </div>
+            <div class="col-md-10">
+            </div>
+        </div>
+        <div class="row ilet_row" style="margin-top: 32px;">
+            <div class="col-md-4 col-xs-12 col-sm-5 ilet">
+                <h2>İletişime Geçin</h2>
+            </div>
+            <div class="col-md-8">
+                
+            </div>
+        </div>
+        <!-- Map -->
+        <div class="row">
+            <div class="col-md-12 map" id="googleMap">
+            </div>
+        </div>
+        <!-- Map end -->
+
+        <div class="row contact_row">
+            <div class="col-md-4  col-lg-4  cont_info">
+                    <div class="col-md-4 cont_inf_det">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        <h6>Hasanpaşa Mah. Uzunçayır Cad. <br>Kadıköy Yapı İş Merkezi No: 33 A2 Blok <br>Kat: 1 Daire:11 Kadıköy / İSTANBUL</h6>
+                    </div>
+                    <div class="col-md-4 cont_inf_det">
+                        <span class="glyphicon glyphicon-phone-alt"></span><h4>+90 (216) 338 67 71</h4>
+                    </div>
+                    <div class="col-md-4 cont_inf_det">
+                        <span class="glyphicon glyphicon-envelope"></span><h4>info@evrencevredanismanlik.com</h4>
+                    </div>
+                    <div class="col-md-4 cont_inf_det">
+                        <span class="glyphicon glyphicon-print"></span><h4>+90 (216) 338 67 41</h4>
+                    </div>
+            </div>
+
+            <div class="col-md-8 cont">
+                
+                <input class="col-md-5 first ad" placeholder="Adınız..*" type="text">
+                
+
+                <div class="col-md-1">
+                    
+                </div>
+
+                <input class="col-md-6 mail first" placeholder="Email Adresiniz..*" type="text">
+
+                <input class="col-md-5 tel first" placeholder="Tel No..*" type="text">
+
+                <div class="col-md-6"></div>
+                <textarea name="" class="col-md-12 metin" id="" placeholder="Mesaj" cols="30" rows="10"></textarea>
+            <div class="col-md-3 col-xs-12 col-sm-12 gonder">
+                <h5><a href="" class="btt">Gonder</a></h5>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+    <div class="row footer_row">
+        <div class="col-lg-4 col-md-5 col-xs-12 col-sm-7 footer">
+                <div class="col-lg-5 col-md-5 col-xs-4 col-sm-4 f_logo">
+                    <img class="f_logo_i" src="img/logo.png" alt="">
+                </div>
+                <div class="col-lg-7 col-md-7 col-xs-8 col-sm-8 f_icon">
+                    <a href=""><span class="glyphicon glyphicon-ok f_icon_C"></span></a>
+                    <a href=""><span class="glyphicon glyphicon-time f_icon_C"></span></a>
+                    <a href=""><span class="glyphicon glyphicon-road f_icon_C"></span></a>
+                    <a href=""><span class="glyphicon glyphicon-file f_icon_C"></span></a>
+                    <a href=""><span class="glyphicon glyphicon-home f_icon_C"></span></a>
+                </div>
+                <div class="col-md-12 col-xs-12 col-sm-12 foot_inf">
+                    <span class="foot">Lorememememeewkldfaksads
+                    aapsdklasdkasdkasdkasdklasdas
+                    daksldasdasdasdas daksldasdasdasdasdaksldasd</span>
+                </div>
+                <div class="col-lg-4 col-md-5 col-xs-4 col-sm-3 yon" style="height: 66px;margin-top: 30px;">
+                    <span class="linkk"><a href="#" class="link_a">Link</a></span>
+                </div>
+        </div>
+    </div>
+    <div class="row footer_row_alt" style="height: 50px;background: white;">
+        <div class="container">
+            <div class="col-md-6 col-xs-6 col-sm-6 footer_alt_sol" style="height: 50px;">
+                    <span class="copy">Copyrhity CEM FARUK CEM CEM</span>
+            </div>
+            <div class="col-md-6 col-xs-6 col-sm-6  footer_alt_sag" style="height: 50px;">
+                    <span class="creat">Codede by cemcemcem</span>
+            </div>
+        </div>
+    </div>
+<!-- Footer -->
+
+<script>$('.hamburger-menu').click(function(){
+  $('nav ul').toggleClass('showing');
+  $('nav ul').toggleClass('ac');
+  $('.hamburger-menu').toggleClass('opening');
+})
+
+$( document ).ready(function() {
+if ($(window).width() <= 992) {
+   $(".left").insertBefore(".right");
+}
+
+    $(window).resize(function() {
+    if($( document ).width() <= 992){
+      $(".left").insertBefore(".right");
+    }else{
+      $(".right").insertBefore(".left");
+    }
+});
+});
+
+function a(){ $( '.main' ).addClass( "buyu" );  $( '.main' ).addClass( "maain" ); $( '.maain' ).removeClass( "main" );}
+function b(){ $( '.maain' ).addClass( "main" ); ( '.main' ).removeClass( "maain" ); $( '.main' ).removeClass( "buyu" ); }
+
+$(".hamburger-menu").click(function() { 
+  return (this.tog = !this.tog) ? a() : b();
+});
+</script>
+    <script>
+   function initialize() {       
+        var latlng = new google.maps.LatLng(40.997096,29.04782);
+
+        var myOptions = {
+            zoom: 16,
+            center: latlng,
+            mapTypeControlOptions: {mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'tehgrayz']},
+            streetViewControl: false,
+            mapTypeControl: false
+        };
+
+        var map = new google.maps.Map(document.getElementById("googleMap"),myOptions);
+               
+            var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            title: 'Rajeev Chowk, New Delhi'
+        });
+               
+        var stylez = [{featureType: "all",elementType: "all",stylers: [{ saturation: -100 }]}];       
+        var mapType = new google.maps.StyledMapType(stylez, { name:"Grayscale" });
+           
+        map.mapTypes.set('tehgrayz', mapType);
+        map.setMapTypeId('tehgrayz');
+       
+}        
+    </script>
+     <script src="js/nav.js"></script>
+</body>
+</html>

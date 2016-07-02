@@ -1,0 +1,174 @@
+
+.footer_row{
+    height: 549px;
+    background-image: url(../img/footer.png);
+    margin-top: -6px;
+
+}
+
+.yon{
+    border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 1px solid #b7f490;
+height: 100%;
+}
+
+.footer {
+    margin-top: 46px;
+    display: grid;
+}
+
+
+.footer_row_alt {
+    height: 72px;
+    background-color: black;
+}
+
+.linkk{
+    font-size: 38px;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+   
+}
+
+.link_a{
+   color: #5ca12f;  
+}
+.link_a:hover{
+   color: #5ca12f;  
+}
+
+.f_logo {
+    height: 80px;
+}
+
+
+.f_logo_i {
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+
+.f_icon {
+    height: 80px;
+}
+
+
+.f_icon_C {
+    font-size: 18px;
+    margin-left: 15px;
+    float: right;
+    color: white;
+    margin-top: 6%;
+}
+
+.f_icon_C:hover{
+    color: #48c8ed;
+    transition: 0.15s 0.1s;
+}
+
+
+.foot {
+    font-size: 100%;
+    width: 100%;
+    color: white;
+}
+
+
+.foot_inf {
+    height: 116px;
+    margin-top: 30px;
+}
+
+
+.copy {
+    font-size: 12px;
+    float: left;
+    color: black;
+}
+
+
+.creat {
+    font-size: 12px;
+    float: right;
+    color: black;
+}
+
+
+@media screen and (max-width: 992px) {
+}
+
+.footer{
+    margin-top: 46px;
+    display: grid;
+}
+
+.footer_row_alt{
+    height: 72px;
+    background-color: black;
+}
+
+.f_logo{
+    height: 80px;
+
+}
+
+.f_logo_i{
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.f_icon{
+    height: 80px;
+
+}
+
+.f_icon_C{
+    font-size: 18px;
+    margin-left: 15px;
+    float: right;
+    color: white;
+    margin-top: 6%;
+}
+
+.foot{
+    font-size: 100%;
+    width: 100%;
+    color: white;
+
+}
+
+.foot_inf{
+    height: 116px;
+    margin-top: 30px;
+}
+
+.copy{
+    font-size: 12px;
+    float: left;
+    color: black;
+}
+.creat{
+    font-size: 12px;
+    float: right;
+    color: black;
+}
+
+@media screen and (max-width: 992px) {
+.footer_row{
+    background: url(../img/footer_mob.png);;
+}
+
+.f_icon_C{
+
+    margin-top: 4%;
+}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px){
+.footer_row{
+    background: url(../img/footer_1200.png);;
+}
+}

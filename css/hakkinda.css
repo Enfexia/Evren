@@ -1,0 +1,257 @@
+.yon_row{
+    height: 60px;
+}
+
+.top{
+    height: 100%;
+}
+.yon{
+    border: 1px solid #67f490;
+    height: 100%;
+}
+
+.buyu{
+    margin-top: 350px !important;
+}
+
+.hamburger-menu{
+  margin-top: 40px !important;
+}
+
+h5{
+    margin-top: 19px;
+    text-align: center;
+    color: #5ca12f;
+}
+.Ana {
+    color: #5ca12f;
+}
+
+.glob{
+    background-color: white;
+}
+
+.baslik{
+    border-left: 3px solid #5ac6ea;
+    height: 34px;
+}
+
+.cilgin{
+    background: white;
+    width: 100%;
+
+}
+
+
+
+.baslik_text{
+    font-size: 32px;
+    font-weight: 300;
+    margin-left: -10px;;
+
+}
+
+.contens{
+
+}
+
+.pre_inf{
+    font-size: 17px;
+
+}
+
+.cont_img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.whole{
+
+}
+
+.c_p{
+    height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+.contents{
+    height: 1784px;
+
+}
+    .top{
+        padding-bottom: 100px;
+    }
+            html{
+        overflow-x: hidden;
+    }
+
+}
+
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+        .pre_inf{
+        
+    }
+        .top{
+        height: 100%;;
+        padding-bottom: 152px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+        .pre_inf{
+        font-size: 17px;
+    }
+    .top{
+        height: 100%;
+        padding-bottom: 100px;
+    }
+    html{
+        overflow-x: hidden;
+    }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+        .pre_inf{
+        
+    }
+    .top{
+        padding-bottom: 100px;
+    }
+            html{
+        overflow-x: hidden;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .pre_inf{
+
+    }
+
+    .top{
+        padding-bottom: 100px;
+    }
+        html{
+        overflow-x: hidden;
+    }
+}
+
+
+
+
+@media (max-width: 550px) {
+  body {
+    box-sizing: border-box;
+    transform: translate(0, 0);
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    left: 0;
+  }
+}
+.pre_inf < h2 {
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: block;
+  background-color: #fefffa;
+  margin: 0;
+}
+
+.pre_inf < p {
+  color: rgba(48, 69, 92, 0.8);
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  max-height: 800px;
+  opacity: 1;
+  transform: translate(0, 0);
+  margin-top: 14px;
+}
+
+.top >  ul {
+  list-style: none;
+  perspective: 900;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.top > ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 4px;
+  padding-top: 18px;
+  border-top: 1px dotted #dce7eb;
+}
+ul li:nth-of-type(1) {
+  animation-delay: 0.5s;
+}
+ul li:nth-of-type(2) {
+  animation-delay: 0.75s;
+}
+ul li:nth-of-type(3) {
+  animation-delay: 1s;
+}
+ul li:last-of-type {
+  padding-bottom: 0;
+}
+ul li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 16px;
+  right: 0;
+}
+ul li i:before, ul li i:after {
+  content: "";
+  position: absolute;
+  background-color: #ff6873;
+  width: 3px;
+  height: 9px;
+}
+ul li i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+ul li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+ul li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+ul li input[type=checkbox]:checked ~ p {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+  background: white;
+}
+ul li input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+ul li input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
