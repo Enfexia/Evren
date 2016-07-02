@@ -16,12 +16,7 @@
     <script src="js/pace.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
     <script src="js/bootstrap.min.js"></script>
-    <script>$(window).load(function(){
-   // PAGE IS FULLY LOADED  
-   // FADE OUT YOUR OVERLAYING DIV
-      $('#overlay').fadeOut();
-});</script>
-
+     <script src="js/nav.js"></script>
 </head>
 <body onload="initialize();">
 <div id="overlay"></div>
@@ -204,34 +199,5 @@ $(".hamburger-menu").click(function() {
   return (this.tog = !this.tog) ? a() : b();
 });
 </script>
-    <script>
-   function initialize() {       
-        var latlng = new google.maps.LatLng(40.997096,29.04782);
-
-        var myOptions = {
-            zoom: 16,
-            center: latlng,
-            mapTypeControlOptions: {mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'tehgrayz']},
-            streetViewControl: false,
-            mapTypeControl: false
-        };
-
-        var map = new google.maps.Map(document.getElementById("googleMap"),myOptions);
-               
-            var marker = new google.maps.Marker({
-            position: latlng,
-            map: map,
-            title: 'Rajeev Chowk, New Delhi'
-        });
-               
-        var stylez = [{featureType: "all",elementType: "all",stylers: [{ saturation: -100 }]}];       
-        var mapType = new google.maps.StyledMapType(stylez, { name:"Grayscale" });
-           
-        map.mapTypes.set('tehgrayz', mapType);
-        map.setMapTypeId('tehgrayz');
-       
-}        
-    </script>
-     <script src="js/nav.js"></script>
 </body>
 </html>
