@@ -1,6 +1,6 @@
 #overlay{
   position:fixed;
-  z-index:99;
+  z-index:9999999;
   top:0;
   left:0;
   bottom:0;
@@ -24,7 +24,7 @@
 .pace .pace-progress {
   background: #29d;
   position: fixed;
-  z-index: 2000;
+  z-index: 99999999;
   top: 0;
   right: 100%;
   width: 100%;

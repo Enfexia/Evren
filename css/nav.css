@@ -117,6 +117,74 @@ nav ul li {
   transform: rotate(45deg);
 }
 
+@media (min-width: 375px) and (max-width: 519px){
+
+.snip1135 a{
+  font-size: 20px !important;
+}
+.cevre_d{
+  width: 253px;
+  margin-left: 17% !important;
+
+}
+
+.Ana_S{
+  width: 147px;
+  margin-left: 74% !important;
+}
+
+.hakk_i{
+  margin-left: 97% !important; 
+}
+
+.insan_k{
+  width: 231px;
+  margin-left: 26% !important;
+}
+
+.ref_r{
+  margin-left: 76% !important;
+}
+
+.ilet_s{
+margin-left: 105% !important;
+}
+}
+@media screen and (max-width: 374px){
+
+.snip1135 a{
+  font-size: 16px !important;
+}
+.cevre_d{
+  width: 194px;
+  margin-left: 0px !important;
+
+}
+
+.Ana_S{
+  width: 100px;
+  margin-left: 43px !important;
+}
+
+.hakk_i{
+  margin-left: 45px !important; 
+}
+
+.insan_k{
+  width: 178px;
+  margin-left: 5px !important;
+}
+
+.ref_r{
+  margin-left: 32px !important;
+}
+
+.ilet_s{
+margin-left: 50px !important;
+}
+
+}
+
 @media screen and (max-width: 992px) {
   .hamburger-menu {
     display: flex;
@@ -176,10 +244,10 @@ nav ul li {
 }
 .snip1135 a {
   padding: 0.5em 0;
-  position: relative;
-  letter-spacing: 1px;
-  text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: relative;;;;;
 }
 .snip1135 a:before,
 .snip1135 a:after {
