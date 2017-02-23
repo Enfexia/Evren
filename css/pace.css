@@ -6,6 +6,7 @@
   bottom:0;
   right:0;
   background: black;
+  overflow:hidden;  
   transition: 1s 0.4s;
 }
 .pace {
